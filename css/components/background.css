@@ -1,0 +1,7 @@
+img {
+  position: absolute;
+  top: 0;
+  width: inherit;
+  height: inherit;
+  z-index: -1;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="clock">
+        <span class="clock__time">00:00</span>
+      </div>
+
+      <div class="weather-widget">
+        <span class="weather-widget__city"></span>
+        <span class="weather-widget__weather"></span>
+        <span class="weather-widget__temp"></span>
+      </div>
+    </div>
+
+    <div class="log-in">
+      <form class="log-in__form invisible">
+        <input
+          type="text"
+          class="log-in__input"
+          required
+          placeholder="Username"
+        />
+        <button class="log-in__btn">Submit</button>
+      </form>
+      <span class="log-in__userinfo invisible"></span>
+    </div>
+
+    <div class="list-todo">
+      <form class="list-todo__form">
+        <input
+          type="text"
+          class="list-todo__input"
+          required
+          placeholder="Thing to do"
+        />
+        <button class="list-todo__btn">Add</button>
+      </form>
+      <ul class="list-todo__ul"></ul>
+    </div>
+
+    <div class="quote-widget">
+      <span class="quote-widget__quote"></span>
+      <span class="quote-widget__author"></span>
+    </div>
+
+    <script src="src/login.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/quote.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/background.js"></script>
+  </body>
+</html>

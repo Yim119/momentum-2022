@@ -1,0 +1,64 @@
+:root {
+  --purple: rgb(190, 134, 241);
+}
+
+.invisible {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.log-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 50px;
+  position: relative;
+}
+
+.log-in__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-in__input {
+  width: 300px;
+  height: 50px;
+  font-size: 35px;
+  border-radius: 10px;
+  padding: 0px 30px;
+  border: 3px solid var(--purple);
+  box-shadow: 3px 3px 3px plum;
+  outline-style: none;
+  text-align: center;
+}
+
+.log-in__input::placeholder {
+  font-size: 35px;
+  color: rgb(201, 178, 223);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.log-in__btn {
+  width: 90px;
+  height: 50px;
+  margin-left: 70px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  background-color: var(--purple);
+  color: white;
+  border-radius: 7px;
+  border-top-left-radius: 0;
+}
+
+.log-in__userinfo {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
